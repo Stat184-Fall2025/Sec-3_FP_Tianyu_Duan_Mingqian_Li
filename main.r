@@ -1,7 +1,7 @@
-install.packages("fredr")
-install.packages("dplyr")
-install.packages("ggplot2")
-install.package("WDI")
+# install.packages("fredr")
+# install.packages("dplyr")
+# install.packages("ggplot2")
+# install.package("WDI")
 
 library(WDI)
 library(dplyr)
@@ -9,7 +9,7 @@ library(ggplot2)
 
 year -> 2024
 
-# Find indicators
+# Find WDI indicators
 # WDIsearch("fertility rate")
 # WDIsearch("GDP per capita")
 # WDIsearch("school enrollment, secondary")
@@ -26,7 +26,7 @@ raw <- WDI(
   start = year,
   end = year,
   extra = TRUE
-)
+) # Extracts data directly using WDI
 
 colnames(raw)
 
