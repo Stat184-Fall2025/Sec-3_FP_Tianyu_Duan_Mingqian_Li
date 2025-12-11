@@ -1,26 +1,36 @@
 install.packages("fredr")
 install.packages("dplyr")
 install.packages("ggplot2")
+install.package("WDI")
 
-library(fredr)
+library(WDI)
 library(dplyr)
 library(ggplot2)
 
-fredr_set_key("093a9a4e3c03099262c8c9a1c8149f16")
+year -> 2024
 
-start_date <- as.Date("1960-01-01")
+# Find indicators
+# WDIsearch("fertility rate")
+# WDIsearch("GDP per capita")
+# WDIsearch("school enrollment, secondary")
+WDIsearch("life expectancy")
 
-unemp_raw <- fredr(
-  series_id = "UNRATE",
-  observation_start = start_date
+raw <- WDI(
+  country = "all",
+  indicator = c(
+    fertility = "SP.DYN.TFRT.IN",
+    gdp_pc = "NY.GDP.PCAP.CD",
+    edu_sec = "SE.SEC.ENRR",
+    life_expectancy = "SP.DYN.LE00.IN"
+  ),
+  start = year,
+  end = year,
+  extra = TRUE
 )
 
-fedfunds_raw <- fredr(
-  series_id = "FEDFUNDS",
-  observation_start = start_date
-)
+colnames(raw)
 
-cpi_raw <- fredr(
-  series_id = "CPIAUCSL",
-  observation_start = start_date
-)
+clean <- raw %>%
+  select("country","region","fertility","gdp_pc","edu_sec","life_expectancy") %>%
+  filter(region != "Aggregates")
+
