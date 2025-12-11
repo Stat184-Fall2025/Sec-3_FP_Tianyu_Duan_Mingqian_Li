@@ -30,7 +30,8 @@ raw <- WDI(
 
 colnames(raw)
 
-clean <- raw %>%
+# select columns from raw data and filter rows
+clean <- raw %>% 
   select("country","region","fertility","gdp_pc","edu_sec","life_expectancy") %>%
   filter(region != "Aggregates")
 
