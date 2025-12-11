@@ -6,6 +6,7 @@
 library(WDI)
 library(dplyr)
 library(ggplot2)
+library(scales)
 
 year -> 2024
 
@@ -35,3 +36,5 @@ clean <- raw %>%
   select("country","region","fertility","gdp_pc","edu_sec","life_expectancy") %>%
   filter(region != "Aggregates")
 
+ggplot(dat, aes(x=gdp_pc, y=fertility, color=region)) +
+  geom_point(alpha=0.7,size=2) 
