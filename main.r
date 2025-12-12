@@ -39,12 +39,24 @@ clean <- raw %>%
 ggplot(clean, aes(x=gdp_pc, y=fertility, color=region)) +
   geom_point(alpha=0.7,size=2) + 
   scale_x_log10(labels = scales::label_comma()) +
-  geom_smooth(method = "lm", se=FALSE, aes(group=1), color="black")
+  geom_smooth(method = "lm", se=FALSE, aes(group=1), color="black") +
+  labs(
+    title = "GDP per Capita vs Fertility Rate by Country",
+    color = "Continent / Region"
+  )
 
 ggplot(clean, aes(x=life_expectancy, y=fertility, color=region)) +
   geom_point(alpha=0.7,size=2) +
-  geom_smooth(method = "lm", se=FALSE, aes(group=1), color="black")
+  geom_smooth(method = "lm", se=FALSE, aes(group=1), color="black") +
+  labs(
+    title = "Life Expectancy vs Fertility Rate by Country",
+    color = "Continent / Region"
+  )
 
 ggplot(clean, aes(x=edu_sec, y=fertility, color=region)) +
   geom_point(alpha=0.7,size=2) +
-  geom_smooth(method = "lm", se=FALSE, aes(group=1), color="black")
+  geom_smooth(method = "lm", se=FALSE, aes(group=1), color="black") + 
+  labs(
+    title = "Secondary Education Enrollment vs Fertility Rate by Country",
+    color = "Continent / Region"
+  )
