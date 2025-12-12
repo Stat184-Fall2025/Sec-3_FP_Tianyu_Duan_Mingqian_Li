@@ -2,13 +2,15 @@
 # install.packages("dplyr")
 # install.packages("ggplot2")
 # install.package("WDI")
+# install.package("tidyverse)
 
 library(WDI)
 library(dplyr)
 library(ggplot2)
 library(scales)
+library(tidyverse)
 
-year <- 1995
+year <- 2024
 
 # Find WDI indicators
 # WDIsearch("fertility rate")
@@ -16,6 +18,7 @@ year <- 1995
 # WDIsearch("school enrollment, secondary")
 # WDIsearch("life expectancy")
 
+###################################################################################
 raw <- WDI(
   country = "all",
   indicator = c(
@@ -35,9 +38,11 @@ colnames(raw)
 clean <- raw %>% 
   select("country","region","fertility","gdp_pc","edu_sec","life_expectancy") %>%
   filter(region != "Aggregates")
+
 write.csv(clean, file="data.csv")
 
 ###################################################################################
+
 ggplot(clean, aes(x=gdp_pc, y=fertility, color=region)) +
   geom_point(alpha=0.7,size=2) + 
   scale_x_log10(labels = scales::label_comma()) +
@@ -80,4 +85,4 @@ ggplot(clean, aes(x=gdp_pc, y=edu_sec, color=region)) +
     title = "GDP per Capita vs Secondary Education Enrollment by Country",
     color = "Continent / Region"
   )
-
+###################################################################################
