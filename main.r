@@ -35,7 +35,9 @@ colnames(raw)
 clean <- raw %>% 
   select("country","region","fertility","gdp_pc","edu_sec","life_expectancy") %>%
   filter(region != "Aggregates")
+write.csv(clean, file="data.csv")
 
+###################################################################################
 ggplot(clean, aes(x=gdp_pc, y=fertility, color=region)) +
   geom_point(alpha=0.7,size=2) + 
   scale_x_log10(labels = scales::label_comma()) +
@@ -60,3 +62,22 @@ ggplot(clean, aes(x=edu_sec, y=fertility, color=region)) +
     title = "Secondary Education Enrollment vs Fertility Rate by Country",
     color = "Continent / Region"
   )
+###################################################################################
+ggplot(clean, aes(x=gdp_pc, y=life_expectancy, color=region)) +
+  geom_point(alpha=0.7,size=2) + 
+  scale_x_log10(labels = scales::label_comma()) +
+  geom_smooth(method = "lm", se=FALSE, aes(group=1), color="black") +
+  labs(
+    title = "GDP per Capita vs Life Expectancy by Country",
+    color = "Continent / Region"
+  )
+
+ggplot(clean, aes(x=gdp_pc, y=edu_sec, color=region)) +
+  geom_point(alpha=0.7,size=2) + 
+  scale_x_log10(labels = scales::label_comma()) +
+  geom_smooth(method = "lm", se=FALSE, aes(group=1), color="black") +
+  labs(
+    title = "GDP per Capita vs Secondary Education Enrollment by Country",
+    color = "Continent / Region"
+  )
+
