@@ -10,7 +10,7 @@ library(ggplot2)
 library(scales)
 library(tidyverse)
 
-year <- 2024
+year <- 2018
 
 # Find WDI indicators
 # WDIsearch("fertility rate")
@@ -32,7 +32,7 @@ raw <- WDI(
   extra = TRUE
 ) # Extracts data directly using WDI
 
-colnames(raw)
+# colnames(raw)
 
 # select columns from raw data and filter rows
 clean <- raw %>% 
@@ -41,6 +41,8 @@ clean <- raw %>%
 
 write.csv(clean, file="data.csv")
 
+clean <- read.csv("data.csv")
+
 ###################################################################################
 
 ggplot(clean, aes(x=gdp_pc, y=fertility, color=region)) +
@@ -48,7 +50,7 @@ ggplot(clean, aes(x=gdp_pc, y=fertility, color=region)) +
   scale_x_log10(labels = scales::label_comma()) +
   geom_smooth(method = "lm", se=FALSE, aes(group=1), color="black") +
   labs(
-    title = "GDP per Capita vs Fertility Rate by Country",
+    title = paste("GDP per Capita vs Fertility Rate by Country (",year,")"),
     color = "Continent / Region"
   )
 
@@ -56,7 +58,7 @@ ggplot(clean, aes(x=life_expectancy, y=fertility, color=region)) +
   geom_point(alpha=0.7,size=2) +
   geom_smooth(method = "lm", se=FALSE, aes(group=1), color="black") +
   labs(
-    title = "Life Expectancy vs Fertility Rate by Country",
+    title = paste("Life Expectancy vs Fertility Rate by Country (",year,")"),
     color = "Continent / Region"
   )
 
@@ -64,7 +66,7 @@ ggplot(clean, aes(x=edu_sec, y=fertility, color=region)) +
   geom_point(alpha=0.7,size=2) +
   geom_smooth(method = "lm", se=FALSE, aes(group=1), color="black") + 
   labs(
-    title = "Secondary Education Enrollment vs Fertility Rate by Country",
+    title = paste("Secondary Education Enrollment vs Fertility Rate by Country (",year,")"),
     color = "Continent / Region"
   )
 ###################################################################################

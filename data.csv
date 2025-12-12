@@ -1,0 +1,216 @@
+"","country","region","fertility","gdp_pc","edu_sec","life_expectancy"
+"1","Afghanistan","South Asia",5.327,491.337221382603,57.3578491210938,62.443
+"2","Albania","Europe & Central Asia",1.415,5365.48880180298,98.822387862215,79.238
+"3","Algeria","Middle East & North Africa",3.019,4577.21029180491,NA,75.555
+"4","American Samoa","East Asia & Pacific",2.494,12552.0546868861,NA,72.794
+"5","Andorra","Europe & Central Asia",1.053,42819.7745797624,95.9804306030273,84.242
+"6","Angola","Sub-Saharan Africa",5.519,2538.59139143371,NA,62.622
+"7","Antigua and Barbuda","Latin America & Caribbean",1.371,18273.4270684912,121.685249328613,77.132
+"8","Argentina","Latin America & Caribbean",2.067,11752.7998922979,109.671241760254,76.77
+"9","Armenia","Europe & Central Asia",1.6,4196.00562301769,83.0249410833595,75.619512195122
+"10","Aruba","Latin America & Caribbean",1.732,30082.1276448186,137.829788208008,75.88
+"11","Australia","East Asia & Pacific",1.74,57196.4220783778,136.105545043945,82.7487804878049
+"12","Austria","Europe & Central Asia",1.47,51194.0749841299,100.692596435547,81.6926829268293
+"13","Azerbaijan","Europe & Central Asia",1.73,4739.7943123408,108.488781124,73.016
+"14","Bahamas, The","Latin America & Caribbean",1.404,32642.3353203452,80.8808929269834,74.062
+"15","Bahrain","Middle East & North Africa",1.911,26324.4066549559,100.701887411111,80.412
+"16","Bangladesh","South Asia",2.193,1965.24372731467,65.2714888764112,72.122
+"17","Barbados","Latin America & Caribbean",1.72,20055.915870771,108.216751098633,76.378
+"18","Belarus","Europe & Central Asia",1.448,6360.037502312,101.596010989492,74.1756097560976
+"19","Belgium","Europe & Central Asia",1.62,47487.2100392561,156.509765625,81.5951219512195
+"20","Belize","Latin America & Caribbean",2.343,6031.28139580144,86.2833561409511,72.322
+"21","Benin","Sub-Saharan Africa",5.031,1151.7409703472,NA,59.71
+"22","Bermuda","North America",1.374,113204.82210838,NA,80.986
+"23","Bhutan","South Asia",1.517,3400.20417245342,87.5722870683987,71.711
+"24","Bolivia","Latin America & Caribbean",2.73,3500.72642189887,88.7218999579042,67.699
+"25","Bosnia and Herzegovina","Europe & Central Asia",1.504,6047.84584261133,85.6409912109375,77.942
+"26","Botswana","Sub-Saharan Africa",2.941,7407.95940141786,NA,66.371
+"27","Brazil","Latin America & Caribbean",1.744,9300.66164923219,105.00707244873,75.633
+"28","British Virgin Islands","Latin America & Caribbean",0.905,NA,65.9177456207159,76.728
+"29","Brunei Darussalam","East Asia & Pacific",1.848,30988.1190497851,89.1818084716797,74.992
+"30","Bulgaria","Europe & Central Asia",1.73,9872.38507789106,104.043922424316,74.9634146341464
+"31","Burkina Faso","Sub-Saharan Africa",4.921,777.465618514048,39.6278467471779,59.972
+"32","Burundi","Sub-Saharan Africa",5.38,224.89939239264,46.330394174756,61.806
+"33","Cabo Verde","Sub-Saharan Africa",1.804,4294.96510035729,94.8972015380859,74.84
+"34","Cambodia","East Asia & Pacific",2.724,2036.67377566578,50.199099715459,69.993
+"35","Cameroon","Sub-Saharan Africa",4.74,1610.69641591017,NA,61.189
+"36","Canada","North America",1.51,46539.1761570405,111.833679199219,81.8087804878049
+"37","Cayman Islands","Latin America & Caribbean",1.277,83865.5531568184,89.0140845070423,78.835
+"38","Central African Republic","Sub-Saharan Africa",6.108,455.243962859534,NA,52.297
+"39","Chad","Sub-Saharan Africa",6.464,948.656629871231,20.0021180694774,52.447
+"40","Channel Islands","Europe & Central Asia",1.37,60783.3529257544,NA,81.1
+"41","Chile","Latin America & Caribbean",1.543,15659.4808675628,103.173049926758,80.559
+"42","China","East Asia & Pacific",1.539,10085.6638148819,NA,77.709
+"43","Colombia","Latin America & Caribbean",1.715,6816.96818309544,100.373336791992,76.579
+"44","Comoros","Sub-Saharan Africa",4.208,1540.71132331975,61.7014685443494,65.401
+"45","Congo, Dem. Rep.","Sub-Saharan Africa",6.302,528.256019777898,NA,59.926
+"46","Congo, Rep.","Sub-Saharan Africa",4.442,2694.43413191427,NA,64.472
+"47","Costa Rica","Latin America & Caribbean",1.706,12590.2493781628,125.964347839355,80.09
+"48","Cote d'Ivoire","Sub-Saharan Africa",4.596,2130.86619381144,51.072614509286,59.795
+"49","Croatia","Europe & Central Asia",1.47,15460.4183295843,104.960083007812,77.919512195122
+"50","Cuba","Latin America & Caribbean",1.607,8911.46205964193,99.5805926474392,77.426
+"51","Curacao","Latin America & Caribbean",1.7,19119.1243941688,NA,76.493
+"52","Cyprus","Europe & Central Asia",1.319,29599.986328125,100.253517150879,81.556
+"53","Czechia","Europe & Central Asia",1.71,23705.9329811299,101.514892578125,79.0292682926829
+"54","Denmark","Europe & Central Asia",1.73,61324.7665045565,129.849563598633,80.9536585365854
+"55","Djibouti","Middle East & North Africa",2.858,2718.08338799203,NA,64.105
+"56","Dominica","Latin America & Caribbean",1.517,9215.3085405645,NA,71.378
+"57","Dominican Republic","Latin America & Caribbean",2.397,7882.98221584944,80.2159299988463,73.555
+"58","Ecuador","Latin America & Caribbean",2.111,6303.91886658338,94.9748100922065,77.248
+"59","Egypt, Arab Rep.","Middle East & North Africa",3.02,2484.70315630508,76.9816189396849,70.974
+"60","El Salvador","Latin America & Caribbean",1.849,4183.54620971358,66.9325713689265,71.384
+"61","Equatorial Guinea","Sub-Saharan Africa",4.513,8102.47084834031,NA,61.915
+"62","Eritrea","Sub-Saharan Africa",4.056,NA,46.1723785400391,66.979
+"63","Estonia","Europe & Central Asia",1.67,23618.1361254581,112.759696960449,78.2439024390244
+"64","Eswatini","Sub-Saharan Africa",2.971,3973.46344933667,NA,58.707
+"65","Ethiopia","Sub-Saharan Africa",4.371,747.968003672674,NA,65.257
+"66","Faroe Islands","Europe & Central Asia",2.5118,62526.4908515743,NA,82.2926829268293
+"67","Fiji","East Asia & Pacific",2.419,6085.41979485376,92.0806759919252,66.965
+"68","Finland","Europe & Central Asia",1.41,49654.2497035329,153.651428222656,81.7341463414634
+"69","France","Europe & Central Asia",1.87,41418.1766484844,103.773330688477,82.6756097560976
+"70","French Polynesia","East Asia & Pacific",1.645,21925.616043938,NA,82.985
+"71","Gabon","Sub-Saharan Africa",3.908,7624.2775233771,NA,67.043
+"72","Gambia, The","Sub-Saharan Africa",4.42,696.219806960615,NA,64.034
+"73","Georgia","Europe & Central Asia",2.093,4804.0546040444,111.616827005361,73.985
+"74","Germany","Europe & Central Asia",1.57,48874.8595028454,100.837303161621,80.8926829268293
+"75","Ghana","Sub-Saharan Africa",3.65,2195.32166016377,68.2222557975165,64.138
+"76","Gibraltar","Europe & Central Asia",1.921,NA,NA,83.028
+"77","Greece","Europe & Central Asia",1.35,19873.4015238771,103.891693115234,81.7878048780488
+"78","Greenland","Europe & Central Asia",2,54545.135857765,NA,71.9675609756098
+"79","Grenada","Latin America & Caribbean",1.53,10083.021279225,110.379410343161,74.957
+"80","Guam","East Asia & Pacific",2.995,37195.9503070464,NA,76.561
+"81","Guatemala","Latin America & Caribbean",2.743,4352.94651790253,54.0797647125185,71.496
+"82","Guinea","Sub-Saharan Africa",4.669,933.273615633705,NA,59.043
+"83","Guinea-Bissau","Sub-Saharan Africa",4.241,808.531613218504,NA,61.652
+"84","Guyana","Latin America & Caribbean",2.553,6048.38697180418,NA,68.829
+"85","Haiti","Latin America & Caribbean",2.924,1496.38048970156,NA,64.077
+"86","Honduras","Latin America & Caribbean",2.645,2464.64241531918,NA,72.001
+"87","Hong Kong SAR, China","East Asia & Pacific",1.08,48537.5668888343,108.16398016119,84.869756097561
+"88","Hungary","Europe & Central Asia",1.55,16605.0570511887,103.749549865723,76.0658536585366
+"89","Iceland","Europe & Central Asia",1.71,74452.1890731447,114.649406433105,82.8609756097561
+"90","India","South Asia",2.184,1966.25455171679,76.0025787353516,70.415
+"91","Indonesia","East Asia & Pacific",2.219,3860.95353090726,92.8120739600443,70.08
+"92","Iran, Islamic Rep.","Middle East & North Africa",1.919,4631.78709016514,NA,76.621
+"93","Iraq","Middle East & North Africa",3.547,5646.68932074742,NA,71.116
+"94","Ireland","Europe & Central Asia",1.75,80738.9628834696,154.908294677734,82.2048780487805
+"95","Isle of Man","Europe & Central Asia",1.636,89393.8244248812,NA,80.614
+"96","Israel","Middle East & North Africa",3.09,42362.6652754196,96.6557464599609,82.8024390243903
+"97","Italy","Europe & Central Asia",1.31,34904.1081923834,101.526412963867,83.3463414634146
+"98","Jamaica","Latin America & Caribbean",1.4,5578.10347525832,83.7616154022844,71.606
+"99","Japan","East Asia & Pacific",1.42,39751.1330982711,102.425148010254,84.2109756097561
+"100","Jordan","Middle East & North Africa",2.923,4145.43989673265,89.7929068080636,76.491
+"101","Kazakhstan","Europe & Central Asia",2.845,9472.48527327758,96.1156212742477,73.369
+"102","Kenya","Sub-Saharan Africa",3.536,1836.45275528993,NA,62.825
+"103","Kiribati","East Asia & Pacific",3.318,1912.73809378187,NA,65.807
+"104","Korea, Dem. People's Rep.","East Asia & Pacific",1.834,NA,NA,73.02
+"105","Korea, Rep.","East Asia & Pacific",0.977,33447.1562836166,99.3186569213867,82.6268292682927
+"106","Kosovo","Europe & Central Asia",1.581,4384.18624084947,NA,77.117
+"107","Kuwait","Middle East & North Africa",2.118,32067.9623689512,NA,80.1063658536585
+"108","Kyrgyz Republic","Europe & Central Asia",3.3,1283.5203037417,91.1445853879787,71.4
+"109","Lao PDR","East Asia & Pacific",2.633,2545.1075420815,66.1528570578416,67.594
+"110","Latvia","Europe & Central Asia",1.6,17252.1710428626,109.155700683594,74.7829268292683
+"111","Lebanon","Middle East & North Africa",2.347,9174.53666204759,64.2435656996928,78.263
+"112","Lesotho","Sub-Saharan Africa",3.016,1170.65569702819,NA,54.638
+"113","Liberia","Sub-Saharan Africa",4.336,692.203127129794,NA,60.999
+"114","Libya","Middle East & North Africa",2.581,11196.5854810844,NA,73.151
+"115","Liechtenstein","Europe & Central Asia",1.58,174988.775083446,112.010162353516,83.0414634146342
+"116","Lithuania","Europe & Central Asia",1.53,19247.2315367967,103.014022827148,75.6804878048781
+"117","Luxembourg","Europe & Central Asia",1.38,116926.759593905,106.983123779297,82.2951219512195
+"118","Macao SAR, China","East Asia & Pacific",0.915,83761.8171798142,92.7108013937282,83.6780487804878
+"119","Madagascar","Sub-Saharan Africa",4.246,500.45718552916,34.6266095687665,63.491
+"120","Malawi","Sub-Saharan Africa",4.021,533.203173686705,38.8324397802949,64.464
+"121","Malaysia","East Asia & Pacific",1.838,10901.8019954421,74.4872817993164,75.734
+"122","Maldives","South Asia",1.71,11423.2838427029,77.0284881591797,79.433
+"123","Mali","Sub-Saharan Africa",6.118,996.379292136901,37.9832691019192,58.873
+"124","Malta","Middle East & North Africa",1.23,33382.2677502638,104.642509460449,82.2487804878049
+"125","Marshall Islands","East Asia & Pacific",3.038,4858.12079054875,NA,65.87
+"126","Mauritania","Sub-Saharan Africa",5.044,1722.93528854073,35.5293425627344,67.419
+"127","Mauritius","Sub-Saharan Africa",1.41,11643.4605962124,91.4171358592572,74.4163414634146
+"128","Mexico","Latin America & Caribbean",2.03,10084.7937553679,105.964653015137,74.301
+"129","Micronesia, Fed. Sts.","East Asia & Pacific",2.922,3566.58690371125,NA,65.943
+"130","Moldova","Europe & Central Asia",1.81,4156.44981956646,95.915919225487,70.236
+"131","Monaco","Europe & Central Asia",2.485,188298.315668437,NA,86.084
+"132","Mongolia","East Asia & Pacific",2.9,4107.64288528468,91.2949725153641,70.8270731707317
+"133","Montenegro","Europe & Central Asia",1.8,8790.88152116679,91.4442672729492,77.8853658536585
+"134","Morocco","Middle East & North Africa",2.354,3501.69799804688,78.470919593794,73.946
+"135","Mozambique","Sub-Saharan Africa",5.07,517.507260258101,NA,60.79
+"136","Myanmar","East Asia & Pacific",2.228,1298.21310320785,77.0191497802734,66.232
+"137","Namibia","Sub-Saharan Africa",3.462,5308.60813408705,78.8626899009705,62.579
+"138","Nauru","East Asia & Pacific",3.683,11408.6947593898,NA,61.238
+"139","Nepal","South Asia",2.12,1179.19843190389,NA,69.036
+"140","Netherlands","Europe & Central Asia",1.59,53955.0770024266,114.50032043457,81.8121951219512
+"141","New Caledonia","East Asia & Pacific",2.041,34902.8968780031,NA,77.557
+"142","New Zealand","East Asia & Pacific",1.71,43257.0769238879,112.411079406738,81.7073170731707
+"143","Nicaragua","Latin America & Caribbean",2.347,2035.16549390507,NA,73.879
+"144","Niger","Sub-Saharan Africa",6.706,578.568035680892,NA,59.765
+"145","Nigeria","Sub-Saharan Africa",5.021,2057.87944554011,40.4885292053223,52.669
+"146","North Macedonia","Europe & Central Asia",1.42,6713.98925398989,83.3533935546875,76.6487804878049
+"147","Northern Mariana Islands","East Asia & Pacific",2.643,26509.3628379893,NA,77.51
+"148","Norway","Europe & Central Asia",1.56,82792.8427113304,117.714706420898,82.7585365853659
+"149","Oman","Middle East & North Africa",2.81,19901.7615642016,103.951581913667,79.864
+"150","Pakistan","South Asia",3.855,1569.33814626355,37.1466063259079,66.481
+"151","Palau","East Asia & Pacific",1.97,16197.7265072415,NA,68.989
+"152","Panama","Latin America & Caribbean",2.402,16151.3273478476,NA,78.266
+"153","Papua New Guinea","East Asia & Pacific",3.382,2566.36833735041,44.5501121213216,65.114
+"154","Paraguay","Latin America & Caribbean",2.561,6258.44991640954,NA,73.627
+"155","Peru","Latin America & Caribbean",2.118,6978.49121548627,99.8580093383789,76.018
+"156","Philippines","East Asia & Pacific",2.378,3168.51036609727,79.3622469757001,69.761
+"157","Poland","Europe & Central Asia",1.46,15658.210586693,110.541938781738,77.6024390243903
+"158","Portugal","Europe & Central Asia",1.42,23541.1401075289,118.28833770752,81.3243902439024
+"159","Qatar","Middle East & North Africa",1.756,71039.8490579352,102.1549014004,82.714
+"160","Romania","Europe & Central Asia",1.76,12502.2624061935,86.5577163696289,75.3585365853659
+"161","Russian Federation","Europe & Central Asia",1.579,11211.8876953125,99.1831046517789,72.6621951219512
+"162","Rwanda","Sub-Saharan Africa",4.047,771.773511057901,41.1796940634956,66.354
+"163","Samoa","East Asia & Pacific",4.136,4231.81409469194,NA,71.052
+"164","San Marino","Europe & Central Asia",1.077,47950.6880557136,60.3284671532847,85.095
+"165","Sao Tome and Principe","Sub-Saharan Africa",3.977,1825.59971753966,NA,67.602
+"166","Saudi Arabia","Middle East & North Africa",2.67,29360.0658968566,106.376211565111,78.75
+"167","Senegal","Sub-Saharan Africa",4.294,1452.55612562445,NA,67.379
+"168","Serbia","Europe & Central Asia",1.49,7559.86165747394,95.0872421264648,75.890243902439
+"169","Seychelles","Sub-Saharan Africa",2.41,18440.2340460932,108.274060095805,72.8414634146341
+"170","Sierra Leone","Sub-Saharan Africa",4.294,845.914540460932,43.119270324707,59.059
+"171","Singapore","East Asia & Pacific",1.14,66881.6067035265,105.745250914262,83.2975609756098
+"172","Sint Maarten (Dutch part)","Latin America & Caribbean",1.522,31708.3110124742,NA,75.693
+"173","Slovak Republic","Europe & Central Asia",1.54,19573.3717031314,91.7815399169922,77.2658536585366
+"174","Slovenia","Europe & Central Asia",1.6,25888.0481065655,113.556167602539,81.3780487804878
+"175","Solomon Islands","East Asia & Pacific",3.93,2278.20633913383,NA,69.806
+"176","South Africa","Sub-Saharan Africa",2.27,6914.1780318076,101.399612936693,65.726
+"177","South Sudan","Sub-Saharan Africa",4.37,NA,NA,51.905
+"178","Spain","Europe & Central Asia",1.26,30602.4212881113,119.430198669434,83.4317073170732
+"179","Sri Lanka","South Asia",2.033,4358.56095906047,95.9107331693991,76.485
+"180","St. Kitts and Nevis","Latin America & Caribbean",1.587,22901.3816403197,116.923551171393,71.336
+"181","St. Lucia","Latin America & Caribbean",1.436,11642.6984727769,88.7150192260742,72.655
+"182","St. Martin (French part)","Latin America & Caribbean",2.725,NA,NA,80.029
+"183","St. Vincent and the Grenadines","Latin America & Caribbean",1.9,8428.12677153069,NA,71.017
+"184","Sudan","Sub-Saharan Africa",4.681,731.027465820313,42.1366996765137,65.501
+"185","Suriname","Latin America & Caribbean",2.381,6665.74180472239,74.745979309082,71.468
+"186","Sweden","Europe & Central Asia",1.76,54181.9069780904,140.821746826172,82.5585365853659
+"187","Switzerland","Europe & Central Asia",1.52,85217.3691512274,104.188026428223,83.7536585365854
+"188","Syrian Arab Republic","Middle East & North Africa",2.932,1098.0668642357,NA,67.371
+"189","Tajikistan","Europe & Central Asia",3.294,834.288404578801,NA,70.737
+"190","Tanzania","Sub-Saharan Africa",4.932,1023.10626220703,28.5933897410534,65.488
+"191","Thailand","East Asia & Pacific",1.323,7099.77650081458,80.6045305135668,77.19
+"192","Timor-Leste","East Asia & Pacific",3.244,1219.46599728983,83.0952419040915,66.204
+"193","Togo","Sub-Saharan Africa",4.513,851.130806891807,NA,60.601
+"194","Tonga","East Asia & Pacific",3.326,4638.8978542585,NA,72.169
+"195","Trinidad and Tobago","Latin America & Caribbean",1.588,17575.8042838042,NA,72.658
+"196","Tunisia","Middle East & North Africa",2.133,3628.10366464236,NA,75.37
+"197","Turkiye","Europe & Central Asia",2,9568.83506330228,112.115409851074,77.454
+"198","Turkmenistan","Europe & Central Asia",2.875,6125.05169712085,NA,69.272
+"199","Turks and Caicos Islands","Latin America & Caribbean",1.677,31625.616593277,95.5051546391753,77.596
+"200","Tuvalu","East Asia & Pacific",3.328,4466.12034928245,78.7418670654297,65.871
+"201","Uganda","Sub-Saharan Africa",4.867,792.16570022814,NA,65.775
+"202","Ukraine","Europe & Central Asia",1.233,3059.0517578125,85.8331876808318,73.569
+"203","United Arab Emirates","Middle East & North Africa",1.288,45689.8570049401,102.184448242188,82.449
+"204","United Kingdom","Europe & Central Asia",1.68,43315.4874501318,119.994140625,81.2560975609756
+"205","United States","North America",1.7295,62875.6661382728,99.2755813598633,78.6390243902439
+"206","Uruguay","Latin America & Caribbean",1.681,19249.9404677501,117.769058227539,77.527
+"207","Uzbekistan","Europe & Central Asia",2.713,1813.08530813664,94.9465096520158,71.999
+"208","Vanuatu","East Asia & Pacific",3.834,3206.65748718811,NA,70.626
+"209","Venezuela, RB","Latin America & Caribbean",2.151,NA,NA,72.641
+"210","Viet Nam","East Asia & Pacific",1.88,3222.31003125366,92.8377710790826,74.1
+"211","Virgin Islands (U.S.)","Latin America & Caribbean",2.06,36663.2087550584,NA,79.5195121951219
+"212","West Bank and Gaza","Middle East & North Africa",3.674,3562.33094270256,89.6454662001111,75.38
+"213","Yemen, Rep.","Middle East & North Africa",4.607,633.887202450998,NA,65.915
+"214","Zambia","Sub-Saharan Africa",4.492,1463.89997855593,NA,62.138
+"215","Zimbabwe","Sub-Saharan Africa",3.744,2271.85250365817,NA,60.906
