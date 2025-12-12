@@ -8,7 +8,7 @@ library(dplyr)
 library(ggplot2)
 library(scales)
 
-year -> 2024
+year -> 1995
 
 # Find WDI indicators
 # WDIsearch("fertility rate")
@@ -37,4 +37,11 @@ clean <- raw %>%
   filter(region != "Aggregates")
 
 ggplot(dat, aes(x=gdp_pc, y=fertility, color=region)) +
-  geom_point(alpha=0.7,size=2) 
+  geom_point(alpha=0.7,size=2) + 
+  scale_x_log10(labels = scales::label_comma())
+
+ggplot(dat, aes(x=life_expectancy, y=fertility, color=region)) +
+  geom_point(alpha=0.7,size=2)
+
+ggplot(dat, aes(x=edu_sec, y=fertility, color=region)) +
+  geom_point(alpha=0.7,size=2)
