@@ -2,7 +2,7 @@
 # install.packages("dplyr")
 # install.packages("ggplot2")
 # install.package("WDI")
-# install.package("tidyverse)
+# install.package("tidyverse")
 
 library(WDI)
 library(dplyr)
@@ -88,3 +88,12 @@ ggplot(clean, aes(x=gdp_pc, y=edu_sec, color=region)) +
     color = "Continent / Region"
   )
 ###################################################################################
+
+ggplot(clean, aes(x=gdp_pc, y=fertility, color=region)) +
+  geom_point(alpha=0.7,size=2) + 
+  scale_x_log10(labels = scales::label_comma()) +
+  geom_smooth(method = "lm", se=FALSE) +
+  labs(
+    title = paste("GDP per Capita vs Fertility Rate by Country (",year,")"),
+    color = "Continent / Region"
+  )
