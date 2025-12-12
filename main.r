@@ -8,13 +8,13 @@ library(dplyr)
 library(ggplot2)
 library(scales)
 
-year -> 1995
+year <- 1995
 
 # Find WDI indicators
 # WDIsearch("fertility rate")
 # WDIsearch("GDP per capita")
 # WDIsearch("school enrollment, secondary")
-WDIsearch("life expectancy")
+# WDIsearch("life expectancy")
 
 raw <- WDI(
   country = "all",
@@ -36,12 +36,15 @@ clean <- raw %>%
   select("country","region","fertility","gdp_pc","edu_sec","life_expectancy") %>%
   filter(region != "Aggregates")
 
-ggplot(dat, aes(x=gdp_pc, y=fertility, color=region)) +
+ggplot(clean, aes(x=gdp_pc, y=fertility, color=region)) +
   geom_point(alpha=0.7,size=2) + 
-  scale_x_log10(labels = scales::label_comma())
+  scale_x_log10(labels = scales::label_comma()) +
+  geom_smooth(method = "lm", se=FALSE, aes(group=1), color="black")
 
-ggplot(dat, aes(x=life_expectancy, y=fertility, color=region)) +
-  geom_point(alpha=0.7,size=2)
+ggplot(clean, aes(x=life_expectancy, y=fertility, color=region)) +
+  geom_point(alpha=0.7,size=2) +
+  geom_smooth(method = "lm", se=FALSE, aes(group=1), color="black")
 
-ggplot(dat, aes(x=edu_sec, y=fertility, color=region)) +
-  geom_point(alpha=0.7,size=2)
+ggplot(clean, aes(x=edu_sec, y=fertility, color=region)) +
+  geom_point(alpha=0.7,size=2) +
+  geom_smooth(method = "lm", se=FALSE, aes(group=1), color="black")
