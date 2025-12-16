@@ -89,6 +89,80 @@ ggplot(clean, aes(x=gdp_pc, y=edu_sec, color=region)) +
   )
 ###################################################################################
 
+# we will explore regional trends in this section.
+
+east_asia_pacific <- clean %>%
+  filter(region == "East Asia & Pacific")
+europe_cental_asia <- clean %>%
+  filter(region == "Europe & Central Asia")
+latin_america_caribbean <- clean %>%
+  filter(region == "Latin America & Caribbean")
+middle_east_north_africa <- clean %>%
+  filter(region == "Middle East & North Africa")
+sub_saharan_africa <- clean %>%
+  filter(region == "Sub-Saharan Africa")
+
+# East Asia & Pacific trend
+ggplot(east_asia_pacific, aes(x=gdp_pc, y=fertility)) +
+  geom_point(alpha=0.7,size=2) + 
+  scale_x_log10(labels = scales::label_comma()) +
+  geom_smooth(method = "lm", se=FALSE, color="black") +
+  labs(
+    title = paste("GDP per Capita vs Fertility Rate by Country (East Asia & Pacific,",year,")"),
+    color = "Continent / Region"
+  )
+
+# East Asia & Pacific trend
+ggplot(east_asia_pacific, aes(x=gdp_pc, y=fertility)) +
+  geom_point(alpha=0.7,size=2) + 
+  scale_x_log10(labels = scales::label_comma()) +
+  geom_smooth(method = "lm", se=FALSE, color="black") +
+  labs(
+    title = paste("GDP per Capita vs Fertility Rate by Country (East Asia & Pacific,",year,")"),
+    color = "Continent / Region"
+  )
+
+# East Asia & Pacific trend
+ggplot(east_asia_pacific, aes(x=gdp_pc, y=fertility)) +
+  geom_point(alpha=0.7,size=2) + 
+  scale_x_log10(labels = scales::label_comma()) +
+  geom_smooth(method = "lm", se=FALSE, color="black") +
+  labs(
+    title = paste("GDP per Capita vs Fertility Rate by Country (East Asia & Pacific,",year,")"),
+    color = "Continent / Region"
+  )
+
+# East Asia & Pacific trend
+ggplot(east_asia_pacific, aes(x=gdp_pc, y=fertility)) +
+  geom_point(alpha=0.7,size=2) + 
+  scale_x_log10(labels = scales::label_comma()) +
+  geom_smooth(method = "lm", se=FALSE, color="black") +
+  labs(
+    title = paste("GDP per Capita vs Fertility Rate by Country (East Asia & Pacific,",year,")"),
+    color = "Continent / Region"
+  )
+
+# East Asia & Pacific trend
+ggplot(east_asia_pacific, aes(x=gdp_pc, y=fertility)) +
+  geom_point(alpha=0.7,size=2) + 
+  scale_x_log10(labels = scales::label_comma()) +
+  geom_smooth(method = "lm", se=FALSE, color="black") +
+  labs(
+    title = paste("GDP per Capita vs Fertility Rate by Country (East Asia & Pacific,",year,")"),
+    color = "Continent / Region"
+  )
+
+# East Asia & Pacific trend
+ggplot(east_asia_pacific, aes(x=gdp_pc, y=fertility)) +
+  geom_point(alpha=0.7,size=2) + 
+  scale_x_log10(labels = scales::label_comma()) +
+  geom_smooth(method = "lm", se=FALSE, color="black") +
+  labs(
+    title = paste("GDP per Capita vs Fertility Rate by Country (East Asia & Pacific,",year,")"),
+    color = "Continent / Region"
+  )
+
+# Combined chart
 ggplot(clean, aes(x=gdp_pc, y=fertility, color=region)) +
   geom_point(alpha=0.7,size=2) + 
   scale_x_log10(labels = scales::label_comma()) +
