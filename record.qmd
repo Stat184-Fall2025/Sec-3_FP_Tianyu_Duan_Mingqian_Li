@@ -184,6 +184,86 @@ ggplot(sub_saharan_africa, aes(x = gdp_pc, y = fertility)) +
   )
 ```
 
+## Region part East Asia & Pacific
+The scatter plots below show the relationship between GDP per person and the fertility rate for countries in East Asia and the Pacific in the year chosen. The GDP per capita is shown on a logarithmic scale to highlight how wide the economic inequalities are between countries. Each point stands for a different country.
+
+Overall, the graphs demonstrate a clear negative relationship between the fertility rate and GDP per capita. People with higher incomes tend to have fewer children, while people with lower GDP per capita tend to have more children. This pattern is supported by the fitted linear regression line, which goes down.
+
+This pattern could be caused by inequalities in access to education, healthcare, and family planning, as well as differences in how fast cities are growing and the economy is growing in the area. As countries develop wealthy, families usually choose to have fewer kids since living costs more and they want to send their kids to school and work more.
+
+```{r fig-region-eap}
+east_asia_pacific <- clean %>%
+  filter(region == "East Asia & Pacific")
+europe_cental_asia <- clean %>%
+  filter(region == "Europe & Central Asia")
+latin_america_caribbean <- clean %>%
+  filter(region == "Latin America & Caribbean")
+middle_east_north_africa <- clean %>%
+  filter(region == "Middle East & North Africa")
+sub_saharan_africa <- clean %>%
+  filter(region == "Sub-Saharan Africa")
+
+# East Asia & Pacific trend
+ggplot(east_asia_pacific, aes(x=gdp_pc, y=fertility)) +
+  geom_point(alpha=0.7,size=2) + 
+  scale_x_log10(labels = scales::label_comma()) +
+  geom_smooth(method = "lm", se=FALSE, color="black") +
+  labs(
+    title = paste("GDP per Capita vs Fertility Rate by Country (East Asia & Pacific,",year,")"),
+    color = "Continent / Region"
+  )
+
+# East Asia & Pacific trend
+ggplot(east_asia_pacific, aes(x=gdp_pc, y=fertility)) +
+  geom_point(alpha=0.7,size=2) + 
+  scale_x_log10(labels = scales::label_comma()) +
+  geom_smooth(method = "lm", se=FALSE, color="black") +
+  labs(
+    title = paste("GDP per Capita vs Fertility Rate by Country (East Asia & Pacific,",year,")"),
+    color = "Continent / Region"
+  )
+
+# East Asia & Pacific trend
+ggplot(east_asia_pacific, aes(x=gdp_pc, y=fertility)) +
+  geom_point(alpha=0.7,size=2) + 
+  scale_x_log10(labels = scales::label_comma()) +
+  geom_smooth(method = "lm", se=FALSE, color="black") +
+  labs(
+    title = paste("GDP per Capita vs Fertility Rate by Country (East Asia & Pacific,",year,")"),
+    color = "Continent / Region"
+  )
+
+# East Asia & Pacific trend
+ggplot(east_asia_pacific, aes(x=gdp_pc, y=fertility)) +
+  geom_point(alpha=0.7,size=2) + 
+  scale_x_log10(labels = scales::label_comma()) +
+  geom_smooth(method = "lm", se=FALSE, color="black") +
+  labs(
+    title = paste("GDP per Capita vs Fertility Rate by Country (East Asia & Pacific,",year,")"),
+    color = "Continent / Region"
+  )
+
+# East Asia & Pacific trend
+ggplot(east_asia_pacific, aes(x=gdp_pc, y=fertility)) +
+  geom_point(alpha=0.7,size=2) + 
+  scale_x_log10(labels = scales::label_comma()) +
+  geom_smooth(method = "lm", se=FALSE, color="black") +
+  labs(
+    title = paste("GDP per Capita vs Fertility Rate by Country (East Asia & Pacific,",year,")"),
+    color = "Continent / Region"
+  )
+
+# East Asia & Pacific trend
+ggplot(east_asia_pacific, aes(x=gdp_pc, y=fertility)) +
+  geom_point(alpha=0.7,size=2) + 
+  scale_x_log10(labels = scales::label_comma()) +
+  geom_smooth(method = "lm", se=FALSE, color="black") +
+  labs(
+    title = paste("GDP per Capita vs Fertility Rate by Country (East Asia & Pacific,",year,")"),
+    color = "Continent / Region"
+  )
+```
+
 # Key Insights (What We Learned So Far)
 - Insight 1: Countries with higher GDP per capita tend to have lower fertility rates. The most significant disparities in fertility are evident in lower-income nations, especially those with a GDP per capita of less than $10,000 (Figure 1).
 
